@@ -21,8 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Agente.py" />
+    <Compile Include="Bot.py" />
+    <Compile Include="Cliente.py" />
+    <Compile Include="Factura.py" />
+    <Compile Include="Internet.py" />
+    <Compile Include="Paquete.py" />
+    <Compile Include="Telefonia.py" />
     <Compile Include="TP_ChatBot.py" />
+    <Compile Include="TV_Cable.py" />
     <Compile Include="Usuario.py" />
+    <Compile Include="Zona.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

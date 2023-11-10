@@ -1,0 +1,6 @@
+class Internet(Servicio):
+    pass
+
+
+
+
