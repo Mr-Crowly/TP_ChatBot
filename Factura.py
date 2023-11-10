@@ -39,4 +39,5 @@ class Factura:
     def calcular_total(self):
         self._total = sum(producto.precio for producto in self._productos)
 
-
+# NOTA --> aca cambiaria lo de productos por paquetes, ya que el usuario tiene
+# contratado un paquete, que adentro tiene los productos.

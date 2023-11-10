@@ -1,5 +1,9 @@
+from Servicio import Servicio
+
 class Internet(Servicio):
-    pass
+    def __init__(self, velocidad):
+        self._velocidad = velocidad;
+    
 
 
 
