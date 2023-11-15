@@ -7,5 +7,3 @@ class Cliente(Usuario):
         self._codCliente = codCliente
 
 
-
-
